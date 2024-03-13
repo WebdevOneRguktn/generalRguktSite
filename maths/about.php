@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> 
 
-   <link rel="shortcut icon" href="./maths_files/images/favicon.ico">  
+   <link rel="shortcut icon" href="../maths_files/images/favicon.ico">  
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,7 +87,7 @@
         
 <!-- ******HEADER****** --> 
 <?php 
-include "maths_files/includes/header.php";
+include "./maths_files/includes/header.php";
 ?>
   <!-- ******CONTENT****** --> 
     <div class="container">
@@ -119,7 +119,7 @@ include "maths_files/includes/header.php";
     </div><!--//wrapper-->
     
     <!-- ******FOOTER****** --> 
-    <?php include "maths_files/includes/footer.php" ?>
+    <?php include "./maths_files/includes/footer.php" ?>
 
 </body>
   </html>

@@ -19,7 +19,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-   <link rel="shortcut icon" href="./maths_files/favicon.ico"> 
+   <link rel="shortcut icon" href="./maths_files/images/favicon.ico"> 
 
     <style>
     @font-face {
@@ -68,7 +68,7 @@
         
 <!-- ******HEADER****** --> 
 <?php 
-include "maths_files/includes/header.php";
+include "./maths_files/includes/header.php";
 ?>
         <!--*********CONTENT*********-->
         <div class="content container">
@@ -377,6 +377,7 @@ include "maths_files/includes/header.php";
                   </div>
         
                   <div class="col-md-8 col-sm-8 col-xs-12">
+
                         <div>
                           <h4><b><a target="_blank" href="#">					Mr.Ch.Subba Reddy				</a></b><small>M.Sc,SLET</small></h4>
                           <h4><small><b>Mentor</b></small></h4>
@@ -442,17 +443,17 @@ include "maths_files/includes/header.php";
                           <div class="row">               
                           <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 text-center">
                               <div class="album-cover">
-                                  <img class="img-responsive" src="./Faculty _ Department of Mathematics_files/bvl.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                                  <img class="img-responsive" src="#" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                               </div>
                             </div>
   
                               <div class="col-md-9 col-sm-9 col-xs-9">
                           <div>
-                                      <h4><b><a target="_blank" href="https://www.math.iitb.ac.in/~bvl/"></a>Balmohan V. Limaye					</a></b></h4>
+                                      <h4><b><a target="_blank" href=""></a>Balmohan V. Limaye					</a></b></h4>
                                       <h4><small><b>Professor Emeritus</b></small> </h4>
                                       <h4><small><b>Email </b>
                                           bvl [at] math.iitb.ac.in</small></h4>
-                                      <h4><small><b>Research Interests </b><a target="_blank" href="https://mathscinet.ams.org/mathscinet/search/publications.html?pg1=INDI&amp;s1=114120">Functional Analysis</a></small></h4>
+                                      <h4><small><b>Research Interests </b><a target="_blank" href="#">Functional Analysis</a></small></h4>
                                   </div>
                       </div>
                   </div>
@@ -468,9 +469,10 @@ include "maths_files/includes/header.php";
 
     <!--****FOOTER*****-->
     <?php 
-include "maths_files/includes/footer.php";
+include "./maths_files/includes/footer.php";
 ?>
 
 </body>
   </html>
+
 
