@@ -36,7 +36,7 @@
               <li class=" nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">People  <i class="fas fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
-                  <li><a href="faculty.php">Faculty</a></li>
+                  <li><a href="maths_files/pages/faculty.php">Faculty</a></li>
                   
                 </ul>						
 
@@ -78,8 +78,8 @@
               <li class=" nav-item dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us <i class="fas fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                      <li><a href="about.php">About the Department</a></li>
-                      <li><a href="vision.php">Vision & Mission</a></li>
+                      <li><a href="./maths_files/pages/about.php">About the Department</a></li>
+                      <li><a href="./maths_files.pages/vision.php">Vision & Mission</a></li>
                     </ul>
               </li>
                
