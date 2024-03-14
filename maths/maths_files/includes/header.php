@@ -34,6 +34,14 @@
               <li class=" nav-item"><a href="index.php">Home</a></li>
 
               <li class=" nav-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.php">About the Department</a></li>
+                      <li><a href="vision.php">Vision & Mission</a></li>
+                    </ul>
+              </li>
+
+              <li class=" nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">People  <i class="fas fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
                   <li><a href="faculty.php">Faculty</a></li>
@@ -45,17 +53,9 @@
               <li class=" nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Academic Programs   <i class="fas fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">B.Tech students</a></li>
-                  <li><a target="_blank" href="#">Curriculum Booklet</a></li>
-                  <li class="dropdown-submenu">
-                      <a class="trigger" tabindex="-1" href="#">Courses<i class="fa fa-angle-right"></i></a>
-                        <ul class="dropdown-menu">
-                          <li><a target="_blank"href="#">Running Mathematics Courses</a></li>
-                          <li><a target="_blank" href="#">Running Statistics Courses</a></li>
-                        </ul>
-                  </li>                           
-                  <li><a href="#">Timetables</a></li>
-                  <li><a target="_blank" href="#">Academic Rules</a></li>             
+                  <li><a href="#">Programs</a></li>
+                  <li><a target="_blank" href="#">Curriculum Booklet</a></li>                           
+                  <li><a target="_blank" href="#">Labs</a></li>             
                 </ul>
               </li><!--//dropdown-->
     
@@ -63,8 +63,7 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Research <i class="fas fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Research Areas</a></li>
-                        <li><a target="_blank" href="#">Research Publications</a></li>   
-                        <li><a href="#">Books Written by Faculty</a></li>    
+                        <li><a target="_blank" href="#">Research Publications</a></li>    
                         <li><a href="#">Awards</a></li>                
                     </ul>
               </li>
@@ -75,13 +74,7 @@
                     <li><a href="#">Events</a></li>         
                   </ul>
               </li>
-              <li class=" nav-item dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us <i class="fas fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="about.php">About the Department</a></li>
-                      <li><a href="vision.php">Vision & Mission</a></li>
-                    </ul>
-              </li>
+              
                
               <li class=" nav-item"><a href="contact.php">Contact</a></li>
           </ul>
