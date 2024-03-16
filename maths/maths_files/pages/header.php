@@ -13,7 +13,7 @@
             </div>
             <div class="header-main container">
                 <h1 class="main-header col-12">
-                  <a href="#"style="text-decoration:none;color: #57a89a;"><img src="./maths_files/images/logo.png" width="100" height="100"><span style="color:rgb(71, 70, 70);">RGUKT Nuzvid </span><span style="color:rgb(92, 89, 89);font-size: 50px;">|</span> Department of Mathematics</a>
+                  <a href="#"style="text-decoration:none;color: #57a89a;"><img src="../images/logo.png" width="100" height="100"><span style="color:rgb(71, 70, 70);">RGUKT Nuzvid </span><span style="color:rgb(92, 89, 89);font-size: 50px;">|</span> Department of Mathematics</a>
                 </h1>
               </div>
         </header>
@@ -31,20 +31,20 @@
 
         <div class="navbar-collapse collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class=" nav-item"><a href="index.php">Home</a></li>
+              <li class=" nav-item"><a href="../../index.php">Home</a></li>
 
               <li class=" nav-item dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us <i class="fas fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                      <li><a href="about.php">About the Department</a></li>
-                      <li><a href="vision.php">Vision & Mission</a></li>
+                      <li><a href="./about.php">About the Department</a></li>
+                      <li><a href="./vision.php">Vision & Mission</a></li>
                     </ul>
               </li>
 
               <li class=" nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">People  <i class="fas fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
-                  <li><a href="faculty.php">Faculty</a></li>
+                  <li><a href="./faculty.php">Faculty</a></li>
                   
                 </ul>						
 
@@ -53,7 +53,7 @@
               <li class=" nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Academic Programs   <i class="fas fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Programs</a></li>
+                  <li><a href="./programs.php">Programs</a></li>
                   <li><a target="_blank" href="#">Curriculum Booklet</a></li>                           
                   <li><a target="_blank" href="#">Labs</a></li>             
                 </ul>
@@ -76,7 +76,7 @@
               </li>
               
                
-              <li class=" nav-item"><a href="contact.php">Contact</a></li>
+              <li class=" nav-item"><a href="./contact.php">Contact</a></li>
           </ul>
           <ul  class="nav navbar-nav" style="float:right">
 			<li class="active nav-item"><a id="branda" style="display:none; padding:0; margin:0;width:50px;" href=""> <img src="./maths_files/images/logo.png" width="50" height="50" hspace="0"/></a></li>

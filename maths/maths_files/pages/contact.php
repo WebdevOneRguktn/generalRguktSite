@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maths Department</title>
 
-    <link rel="stylesheet" href="./maths_files/styles.css">
+    <link rel="stylesheet" href="../styles.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> 
 
-   <link rel="shortcut icon" href="./maths_files/favicon.ico"> 
+   <link rel="shortcut icon" href="../images/favicon.ico"> 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
    <!--FONTS-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,32 +42,19 @@
       .affix + .container-fluid {
           padding-top: 70px;
       }
-      .main-header a{
-        font-family: "Oswald", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        }
     </style>
     <body class="home-page">
         <div class="wrapper">
             
     <!-- ******HEADER****** --> 
     <?php 
-        include "maths_files/includes/header.php";
+        include "header.php";
     ?>
     
     <div class="content container">
         <div class="page-wrapper">
             <header class="page-heading clearfix">
                 <h1 class="heading-title pull-left"><div class="header1">Contact</div></h1>
-                <!-- <div class="breadcrumbs pull-right">
-                    <ul class="breadcrumbs-list">
-                        <li class="breadcrumbs-label" style="font-size:14px">You are here:</li>
-                        <li style="font-size:14px"><a href="#">Home</a><i class="fa fa-angle-right"></i></li>
-                        <li class="current" style="font-size:14px">Contact</li>
-                    </ul>
-                </div> -->
             </header> 
             <div class="page-content">
                 <div class="row">
@@ -123,7 +110,7 @@
     </div><!--//content-->
 </div><!--wrapper-->
  <!-- ******FOOTER****** --> 
- <?php include "maths_files/includes/footer.php"?>
+ <?php include "footer.php"?>
 
 </body>
 </html>

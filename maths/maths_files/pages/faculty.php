@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
-  <link rel="stylesheet" href="./maths_files/styles.css">
+  <link rel="stylesheet" href="../styles.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -19,7 +19,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-   <link rel="shortcut icon" href="./maths_files/images/favicon.ico"> 
+   <link rel="shortcut icon" href="../images/favicon.ico"> 
 
     <style>
     @font-face {
@@ -68,7 +68,7 @@
         
 <!-- ******HEADER****** --> 
 <?php 
-include "./maths_files/includes/header.php";
+include "header.php";
 ?>
         <!--*********CONTENT*********-->
         <div class="content container">
@@ -77,15 +77,15 @@ include "./maths_files/includes/header.php";
                     <h1 class="heading-title pull-left header1">Faculty</h1>
                 </header>
                 <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="faculty.html#reg" aria-expanded="true">Teaching</a></li>
-                    <li class=""><a data-toggle="tab" href="faculty.html#assoc" aria-expanded="false">Non-teaching</a></li>
+                    <li class="active"><a data-toggle="tab" href="faculty.php#reg" aria-expanded="true">Teaching</a></li>
+                    <li class=""><a data-toggle="tab" href="faculty.php#assoc" aria-expanded="false">Non-teaching</a></li>
                 </ul>
                 <div class="tab-content">    
                     <div id="reg" class="tab-pane fade active in">
   				 		      <div class="row">               
 		                    <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                             <div class="album-cover">
-                                <img class="img-responsive" src="./maths_files/images/ramu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                                <img class="img-responsive" src="../images/ramu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                             </div>
 				                </div>
 
@@ -102,7 +102,7 @@ include "./maths_files/includes/header.php";
                     <div class="row">               
                       <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                           <div class="album-cover">
-                              <img class="img-responsive" src="./maths_files/images/sathish.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                              <img class="img-responsive" src="../images/sathish.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                           </div>
                       </div>
 
@@ -119,7 +119,7 @@ include "./maths_files/includes/header.php";
                   <div class="row">               
                     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                         <div class="album-cover">
-                            <img class="img-responsive" src="./maths_files/images/bapiraju.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                            <img class="img-responsive" src="../images/bapiraju.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                         </div>
                     </div>
 
@@ -136,7 +136,7 @@ include "./maths_files/includes/header.php";
                 <div class="row">               
                   <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                       <div class="album-cover">
-                          <img class="img-responsive" src="./maths_files/images/machara.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                          <img class="img-responsive" src="../images/machara.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                       </div>
                   </div>
 
@@ -153,7 +153,7 @@ include "./maths_files/includes/header.php";
               <div class="row">               
                 <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                     <div class="album-cover">
-                        <img class="img-responsive" src="./maths_files/images/rajesh.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                        <img class="img-responsive" src="../images/rajesh.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                     </div>
                 </div>
 
@@ -186,7 +186,7 @@ include "./maths_files/includes/header.php";
             <div class="row">               
               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                   <div class="album-cover">
-                      <img class="img-responsive" src="./maths_files/images/srinivasarao.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                      <img class="img-responsive" src="../images/srinivasarao.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                   </div>
               </div>
 
@@ -203,7 +203,7 @@ include "./maths_files/includes/header.php";
           <div class="row">               
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                 <div class="album-cover">
-                    <img class="img-responsive" src="./maths_files/images/ashokreddy.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                    <img class="img-responsive" src="../images/ashokreddy.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                 </div>
             </div>
 
@@ -237,7 +237,7 @@ include "./maths_files/includes/header.php";
         <div class="row">               
           <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
               <div class="album-cover">
-                  <img class="img-responsive" src="./maths_files/images/t.srinivasarao.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                  <img class="img-responsive" src="../images/t.srinivasarao.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
               </div>
           </div>
 
@@ -271,7 +271,7 @@ include "./maths_files/includes/header.php";
       <div class="row">               
         <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
             <div class="album-cover">
-                <img class="img-responsive" src="./maths_files/images/gowthami.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                <img class="img-responsive" src="../images/gowthami.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
             </div>
         </div>
 
@@ -288,7 +288,7 @@ include "./maths_files/includes/header.php";
       <div class="row">               
         <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
           <div class="album-cover">
-              <img class="img-responsive" src="./maths_files/images/suneetha.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+              <img class="img-responsive" src="../images/suneetha.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
           </div>
         </div>
 
@@ -304,7 +304,7 @@ include "./maths_files/includes/header.php";
         <div class="row">               
           <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
               <div class="album-cover">
-                  <img class="img-responsive" src="./maths_files/images/prashanth.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                  <img class="img-responsive" src="../images/prashanth.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
               </div>
           </div>
 
@@ -321,7 +321,7 @@ include "./maths_files/includes/header.php";
            <div class="row">               
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                 <div class="album-cover">
-                    <img class="img-responsive" src="./maths_files/images/madhu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                    <img class="img-responsive" src="../images/madhu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                 </div>
             </div>
   
@@ -338,7 +338,7 @@ include "./maths_files/includes/header.php";
              <div class="row">               
               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                   <div class="album-cover">
-                      <img class="img-responsive" src="./maths_files/images/meenakshi.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                      <img class="img-responsive" src="../images/meenakshi.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                   </div>
               </div>
     
@@ -355,7 +355,7 @@ include "./maths_files/includes/header.php";
                <div class="row">               
                 <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                     <div class="album-cover">
-                        <img class="img-responsive" src="./maths_files/images/suresh.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                        <img class="img-responsive" src="../images/suresh.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                     </div>
                 </div>
       
@@ -372,7 +372,7 @@ include "./maths_files/includes/header.php";
                  <div class="row">               
                   <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                       <div class="album-cover">
-                          <img class="img-responsive" src="./maths_files/images/subbareddy.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                          <img class="img-responsive" src="../images/subbareddy.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                       </div>
                   </div>
         
@@ -390,7 +390,7 @@ include "./maths_files/includes/header.php";
                    <div class="row">               
                     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                         <div class="album-cover">
-                            <img class="img-responsive" src="./maths_files/images/bhanu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                            <img class="img-responsive" src="../images/bhanu.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                         </div>
                     </div>
           
@@ -406,7 +406,7 @@ include "./maths_files/includes/header.php";
                      <div class="row">               
                       <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                           <div class="album-cover">
-                              <img class="img-responsive" src="./maths_files/images/sowjanya.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                              <img class="img-responsive" src="../images/sowjanya.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                           </div>
                       </div>
             
@@ -422,7 +422,7 @@ include "./maths_files/includes/header.php";
                        <div class="row">               
                         <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-left">
                             <div class="album-cover">
-                                <img class="img-responsive" src="./maths_files/images/vijay.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
+                                <img class="img-responsive" src="../images/vijay.jpg" alt="Image not found" onerror="this.onerror=null;this.src=&#39;images/faculty/Default.jpg&#39;;" width="151" height="151">
                             </div>
                         </div>
               
@@ -469,7 +469,7 @@ include "./maths_files/includes/header.php";
 
     <!--****FOOTER*****-->
     <?php 
-include "./maths_files/includes/footer.php";
+include "footer.php";
 ?>
 
 </body>
