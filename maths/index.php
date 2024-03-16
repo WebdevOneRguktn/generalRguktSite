@@ -64,9 +64,93 @@
     <div class="wrapper">
         
 <!-- ******HEADER****** --> 
-<?php 
-include "maths_files/includes/header.php";
-?>
+<header class="header">  
+            <div class="top-bar">
+                <div class="container">
+                    <form class="pull-right search-form" role="search">
+                       <div class="form-group">
+                        <div class="social-icons`"><a href="#"><font color="#CCFFCC" size="3px"> Gmail Login <i class="bi bi-envelope-fill"></i></font></a> 
+                        </div>
+                        </div>
+                   </form>      
+                </div>       
+            </div>
+            <div class="header-main container">
+                <h1 class="main-header col-12">
+                  <a href="#"style="text-decoration:none;color: #57a89a;"><img src="./maths_files/images/logo.png" width="100" height="100"><span style="color:rgb(71, 70, 70);">RGUKT Nuzvid </span><span style="color:rgb(92, 89, 89);font-size: 50px;">|</span> Department of Mathematics</a>
+                </h1>
+              </div>
+        </header>
+<!--NAV BAR-->
+  <nav class="main-nav" role="navigation" data-spy="affix" data-offset-top="135">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button><!--//nav-toggle-->
+        </div><!--//navbar-header--> 
+
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li class=" nav-item"><a href="index.php">Home</a></li>
+
+              <li class=" nav-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="./maths_files/pages/about.php">About the Department</a></li>
+                      <li><a href="./maths_files/pages/vision.php">Vision & Mission</a></li>
+                    </ul>
+              </li>
+
+              <li class=" nav-item dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">People  <i class="fas fa-angle-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./maths_files/pages/faculty.php">Faculty</a></li>
+                  
+                </ul>						
+
+              </li><!--//dropdown-->
+    
+              <li class=" nav-item dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Academic Programs   <i class="fas fa-angle-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./maths_files/pages/programs.php">Programs</a></li>
+                  <li><a target="_blank" href="#">Curriculum Booklet</a></li>                           
+                  <li><a target="_blank" href="#">Labs</a></li>             
+                </ul>
+              </li><!--//dropdown-->
+    
+              <li class=" nav-item dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Research <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Research Areas</a></li>
+                        <li><a target="_blank" href="#">Research Publications</a></li>    
+                        <li><a href="#">Awards</a></li>                
+                    </ul>
+              </li>
+              <li class=" nav-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">News &amp; Events <i class="fas fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Events</a></li>         
+                  </ul>
+              </li>
+              
+               
+              <li class=" nav-item"><a href="./maths_files/pages/contact.php">Contact</a></li>
+          </ul>
+          <ul  class="nav navbar-nav" style="float:right">
+			<li class="active nav-item"><a id="branda" style="display:none; padding:0; margin:0;width:50px;" href=""> <img src="./maths_files/images/logo.png" width="50" height="50" hspace="0"/></a></li>
+			<li class="active nav-item"><a id="brandb" style="display:none;" href="#"><font size="1">Department of Mathematics</font></a></li>
+
+            </ul><!--//nav-->
+        </div><!--//navabr-collapse-->
+      </div><!--//container-->
+    </nav><!--//main-nav-->
+
 
         <!-- ******CONTENT****** --> 
         <div class="content container-fluid">
@@ -292,9 +376,88 @@ include "maths_files/includes/header.php";
     </div><!--//wrapper-->
     
     <!-- ******FOOTER****** --> 
-    <?php
-    include "maths_files/includes/footer.php"
-    ?>
+    
+
+<footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                <div class="footer-col col-md-3 col-sm-4 about">
+                    <div class="footer-col-inner">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i>About us</a></li>
+                            <li><a href="./Home _ Department of Mathematics_files/contact/Find Us _ Department of Mathematics.html" style="font-size:14px"><i class="bi bi-caret-right-fill"></i>Contact us</a></li>
+                        </ul>
+                    </div><!--//footer-col-inner-->
+                </div><!--//foooter-col-->
+                <div class="footer-col col-md-3 col-sm-8 newsletter">
+                    <div class="footer-col-inner">
+                       <h3>IIT Bombay Links</h3>
+                        <ul>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i>Homepage</a></li>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i>Academics</a></li>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i>Central Library</a></li>
+                        </ul>
+                        
+                    </div><!--//footer-col-inner-->
+                </div><!--//foooter-col--> 
+                <div class="footer-col col-md-3 col-sm-4 about">
+                    <div class="footer-col-inner">
+                        <h3>Other Links</h3>
+                        <ul>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i> Academic Calendar</a></li>
+                            <li><a href="#" style="font-size:14px"><i class="bi bi-caret-right-fill"></i> Classroom Booking</a></li>
+                            <li><p style="font-size:14px"><a href="#"><i class="bi bi-caret-right-fill"></i> Math Research Centre</a></p></li>
+                            <li><p style="font-size:14px"><a href="#"><i class="bi bi-caret-right-fill"></i> NPDE-TCA</a></p></li>
+                            <li><p style="font-size:14px"><a href="#"><i class="bi bi-caret-right-fill"></i> Mathematics Association</a></p></li>
+                        </ul>
+                    </div><!--//footer-col-inner-->
+                </div><!--//foooter-col-->
+                <div class="footer-col col-md-3 col-sm-12 contact">
+                    <div class="footer-col-inner">
+                        <h3>Contact us</h3>
+                        <div class="row">
+                            <p class="adr clearfix col-md-12 col-sm-4">
+                                       
+                                <span class="adr-group pull-left">       
+                                    <span class="street-address" style="font-size:14px"><i class="bi bi-geo-alt-fill"></i> Department of Mathematics</span><br>
+                                    <span class="region" style="font-size:14px">RGUKT-Nuzvid Campus</span><br>
+                                    <span class="postal-code" style="font-size:14px">Mylavaram road,Nuzvid</span><br>
+                                    <span class="country-name" style="font-size:14px">India 521201</span>
+                                </span>
+                            </p>
+                            <p class="tel col-md-12 col-sm-4" style="font-size:14px"><i class="bi bi-telephone-fill"></i>  +91 08656 235150</p>
+                            <p class="email col-md-12 col-sm-4" style="font-size:14px"><i class="bi bi-envelope-fill"></i><a href="director@rguktn.ac.in"> director@rguktn.ac.in</a></p>  
+                        </div> 
+                    </div><!--//footer-col-inner-->            
+                </div><!--//foooter-col--> 
+                </div>   
+<p>
+</p><p style="font-size:14px;text-align:left">For any feedback related to the website, kindly email <a href="mailto:webadm@math.iitb.ac.in">webadm [at] math.iitb.ac.in</a></p>
+            </div>        
+        </div><!--//footer-content-->
+    </footer><!--//footer-->
+    <button id="scrollToTopBtn"><i class="bi bi-chevron-up"></i></button>
+    <script>
+        window.addEventListener('scroll', function() {
+  var scrollToTopBtn = document.querySelector('#scrollToTopBtn');
+  if (window.pageYOffset > 300) {
+    scrollToTopBtn.style.display = 'block';
+  } else {
+    scrollToTopBtn.style.display = 'none';
+  }
+});
+
+document.querySelector('#scrollToTopBtn').addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+</script> 
+
 
 </body>
   </html>
