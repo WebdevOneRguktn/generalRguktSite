@@ -4,10 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<title>Department of Computer Science & Engineering</title>
 		<!-- -------------ATTACHMENTS-------------- -->
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/minified.style.css" />
+		<!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
 		<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 		<script src="assets/js/jquery-3.7.1.slim.min.js"></script>
 	</head>
@@ -232,20 +234,6 @@
 				</div>
 			</div>
 		</section>
-		<footer>
-			<img src="assets/img/rguktlogo.png" alt="Rgukt Logo" >
-			<div>
-				Department of Computer Science and Engineering
-				<br>Rajiv Gandhi University of Knowledge Technologies - Nuzvid
-				<br>Eluru District, A.P, India.
-				<br>PIN Code : 521202
-			</div>
-			<div>
-				HoD: (+91) XXXXXXXXX, hodcse [at] rguktn.ac.in
-				<br>Tel:  (+91) XXXXXXXXX, Fax: (+91) XXXXXXXX
-				<br>Email: cseoffice [at] rguktn.ac.in.
-				<br><div id="copyRights">&copy Copyrights Reserved By Dept of CSE, IIT - Madras. || <a href="#" style="color:grey;">Website Credits</a></div>
-			</div>
-		</footer>
+		<?php include "includes/footer.php"; ?>
 	</body>
 </html>
