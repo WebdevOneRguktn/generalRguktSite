@@ -38,9 +38,7 @@ header {
 	height: 125px;
 	color: rgb(225, 225, 225);
 }
-header * {
-	/* border:1px solid white; */
-}
+/* header * {border:1px solid white;} */
 #logo {
 	aspect-ratio: 1/1;
 	padding: 1em;
@@ -394,9 +392,7 @@ menu_one item:hover menu_two{
 #content2 h3{
 	font-size: unset;
 }
-#content2{
-	/* line-height: 1.5em; */
-}
+/* #content2{line-height: 1.5em;} */
 /* -----------ROW3------------- */
 #row3{
 	margin: 0;
