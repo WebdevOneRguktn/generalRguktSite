@@ -3,11 +3,11 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="row" style="padding: 15px 0px 0px 0px;">
-                            <div class="col-md-2 iitm-logo">
+                            <div class="col-md-2 rgukt-logo">
                                 <img src="./Mechanical Engineering_files/images/rgukt-img.png" class="site_logo mr-4">
                             </div>
                             <div class="col-md-6 dept-name" style="padding: 10px 0px 0px 0px;">
-                                <a class="navbar-brand" href="https://mech.iitm.ac.in/index.php"> DEPARTMENT OF MECHANICAL ENGINEERING <span style="padding: 10px 0px 0px 0px; font-size: 15px;">
+                                <a class="navbar-brand" href="#"> DEPARTMENT OF MECHANICAL ENGINEERING <span style="padding: 10px 0px 0px 0px; font-size: 15px;">
                                     Rajiv Gandhi university of Knowledge and Technologies</span>
                                 </a>
                             </div>

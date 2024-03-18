@@ -4719,9 +4719,8 @@ textarea.form-control.is-invalid {
 }
 
 .card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  width: 50px;
+  height:10px;
 }
 
 .card-img-bottom {
@@ -12826,7 +12825,7 @@ hr.solid-second {
     
   }
 
-  .iitm-logo {
+  .rgukt-logo {
     text-align: center;
     
   }
