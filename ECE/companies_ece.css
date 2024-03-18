@@ -1,0 +1,58 @@
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Recruiting Companies Section */
+.recruiting-companies-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.recruiting-companies-section li {
+  width: calc(50% - 10px); /* Adjust the width as needed */
+  margin-bottom: 4px;
+  background-color: #ffffff; /* Light background color */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px; /* Increased padding */
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.recruiting-companies-section li:hover {
+  transform: scale(1.05);
+}
+
+/* Additional CSS Styles */
+.recruiting-companies-section li a {
+  text-decoration: none;
+  color: #f7f2f2;
+  font-weight: lighter; /* Increased font weight */
+  /*font-size: 0px !important;*/
+}
+
+.section {
+  padding: 0px;
+  background-color: #ffffff; /* White background color */
+  border-radius: 15px; /* Larger border-radius */
+  margin-bottom: 20px; /* Increased margin */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly larger box shadow */
+  animation: fadeInUp 1s ease-out;
+}
+
+.section h3 {
+  color: #B1040E;
+  margin-bottom: 10px; /* Increased margin */
+  animation: fadeIn 1s ease-out;
+}
