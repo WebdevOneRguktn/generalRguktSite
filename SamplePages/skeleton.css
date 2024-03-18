@@ -18,7 +18,7 @@ header{
     height:14vh;
     width:100%;
     /* padding: 1em 0 1em 0; */
-    background-color: rgba(224, 223, 223,0.3);
+    background-color: rgba(224, 223, 223,0.9);
 }
 #title{
     height:100%;
@@ -41,7 +41,7 @@ header{
 nav{
     height:5vh;
     width:100%;
-    background-color: rgba(224, 223, 223,0.3);
+    background: transparent;
     box-shadow:  0px 2px 2px 2px rgba(0,0,0,0.1);
 }
 nav ol{
@@ -54,6 +54,7 @@ nav ol{
 }
 nav ol li{
     height:100%;
+    background: transparent;
     display: flex;justify-content: center;align-items:center ;
     font-size: 1em;
     font-weight: bold;
