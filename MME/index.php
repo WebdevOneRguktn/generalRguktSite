@@ -16,7 +16,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-container pl-5 pr-5">
         <div class="footer-logo md-text-center" style="display:flex;margin-left: 20px;">
-            <a href="#"><img src="./images/logo.jpg" alt="" style="width: 68px;text-align: center;"></a>&nbsp;&nbsp;
+            <a href="#"><img src="./images/logo.jpg" alt="RGUKT-Logo" style="width: 68px;text-align: center;"></a>&nbsp;&nbsp;
                <h5 class="fontlight" style="padding-top: 10px;font-size: 25px; margin-bottom: 0px;color:maroon;font-weight: 500;">Metallurgical and <br>Materials Engineering<p class="fontlight" style="font-size: 16px;color:#000 !important;">	IIIT Nuzvid</p>
             </h5>
         </div>
@@ -138,35 +138,99 @@
   </div>
 </div>
 
-<div class="announcements text-center">
-  <h1>Announcemets</h1>
-  <ul style="list-style-type: none;">
-    <li>
-      <a href="#" class="col-8 mr-5">List of candidates shortlisted for written test - MS by research admissions 2024
-      <span class="col-4 ml-5">2023-11-09</span>
-    </a>
-    </li>
-    <hr style="width:60%;text-align:center;">
-    <li>
-      <a href="#" class="col-8 mr-5">List of candidates shortlisted for written test - MS by research admissions 2024
-      <span class="col-4 ml-5">2023-11-09</span>
-    </a>
-    </li>
-    <hr style="width:60%;text-align:center;">
-    <li>
-      <a href="#" class="col-8 mr-5">List of candidates shortlisted for written test - MS by research admissions 2024
-      <span class="col-4 ml-5">2023-11-09</span>
-    </a>
-    </li>
-    <hr style="width:60%;text-align:center;">
-    <li>
-      <a href="#" class="col-8 mr-5">List of candidates shortlisted for written test - MS by research admissions 2024
-      <span class="col-4 ml-5">2023-11-09</span>
-    </a>
-    </li>
-    
-  </ul>
 
+
+<style>
+.spad{
+	padding: 10px;
+}
+
+.announ{
+    display:flex;
+    border-bottom: 2px solid #f9f8f8;
+    padding: 10px;
+    color:#222324;
+}
+
+.announ-heading{
+    font-size: 30px;
+    color:#222324;
+    text-align:center;
+    font-weight: 300;
+    padding: 0 0 20px 0;
+}
+.spadd{
+	text-align:right;
+}    
+
+.container-annoupadding{
+  padding-left: 8px;
+}
+.announ-ico-img{
+  width: 50px;
+}
+
+</style>
+<div class="container">
+    <div class="row">
+            <div class="col-lg-12 pr-90 md-pr-15 md-mb-30">
+                 <h5 class="announ-heading">Announcements</h5>
+                 </div>
+	<br>
+<div class="container dis-top1">
+    <div class="row">
+     <div class="col-sm-12 col-md-12 spad announ" style="">
+    	<div class="col-sm-1 col-md-1 spadd">
+    		<img src="./images/marketing.png" class="">
+    	</div>     
+    	<div class="col-sm-10 col-md-10">
+    		<a href="#" style="text-decoration:none;color: black;">List of candidates shortlisted for written test - MS by research admissions 2024</a>
+    	</div> 
+    	<div class="col-sm-1 col-md-1" style="white-space:nowrap;">
+    		2023-11-09    	</div> 
+    </div>
+    <div class="col-sm-12 col-md-12 spad announ">
+    	<div class="col-sm-1 col-md-1 spadd">
+    		<img src="./images/marketing.png" class="">
+    	</div>     
+    	<div class="col-sm-10 col-md-10">
+    		<a href="#" style="text-decoration:none;color: black;">List of candidates shortlisted for written test - PhD (regular) admissions 2024</a>
+    	</div> 
+    	<div class="col-sm-1 col-md-1" style="white-space:nowrap;">
+    		2023-11-09    	</div> 
+    </div>
+    <div class="col-sm-12 col-md-12 spad announ" style="">
+    	<div class="col-sm-1 col-md-1 spadd">
+    		<img src="./images/marketing.png" class="">
+    	</div>     
+    	<div class="col-sm-10 col-md-10">
+    		<a href="#" style="text-decoration:none;color:black;">Nominations invited for Sudharshan Bhatt Memorial Prize</a>
+    	</div> 
+    	<div class="col-sm-1 col-md-1" style="white-space:nowrap;">
+    		2023-06-01    	</div> 
+    </div>
+    <div class="col-sm-12 col-md-12 spad announ" style="">
+    	<div class="col-sm-1 col-md-1 spadd">
+    		<img src="./images/marketing.png" class="">
+    	</div>     
+    	<div class="col-sm-10 col-md-10">
+    		<a href="#" style="color: black;">Jan-May 2023 End Semester schedule</a>
+    	</div> 
+    	<div class="col-sm-1 col-md-1" style="white-space:nowrap;">
+    		2023-04-27    	</div> 
+    </div>
+                      
+   </div>
+</div>				   
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 pr-90 md-pr-15 md-mb-30"></div>
+		<div class="col-lg-4   md-mb-30" style="text-align: center;">
+		<a href="#" class="rmore" style="color: black;"><b>SEE ALL</b><img src="./images/ra-fa.png"></a>
+		</div>
+		<div class="col-lg-4 pr-90 md-pr-15 md-mb-30"></div>
+	</div>
+</div>
 </div>
 
 <footer class="footer-container">
@@ -192,8 +256,7 @@
                     <ul class="footer-items"  style="list-style-type: none;">
                         <li><a href="#" style="color:#222324;">Facilities</a></li>
                         <li><a href="#" style="color:#222324;">Industry</a></li>
-                        <li><a href="#" style="color:#222324;"> 
-                                  News & Events</a></li> 
+                        <li><a href="#" style="color:#222324;">News & Events</a></li> 
                     </ul>
                 </div>
                  <div class="col-lg-4 col-md-12 col-sm-4 md-mb-10">

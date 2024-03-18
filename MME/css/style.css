@@ -1,6 +1,6 @@
 body{
-    font-family: 'Roboto';
-    font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 .navbar-top-container{
   background-color:maroon;
@@ -140,6 +140,33 @@ body{
   .news-description{
     font-size: 16px;
   }
+
+
+@media only screen and (max-width:768px)
+{
+.dis-top
+{
+    display:block!important;
+}
+.dis-top1
+{
+    display:none!important;
+}
+}
+.dis-top
+{
+    display:none;
+    text-decoration: none;
+}
+
+.dis-top1
+{
+    display:block;
+    text-decoration: none;
+}
+
+
+
   .footer-container {
     flex-wrap: wrap;
     border-radius: 8px;
@@ -348,4 +375,16 @@ hr.short{width:2.78571429em; border-color:#4a90e2;}
 .acad-image3{
   background-image: url("../images/acad-image3.jpg");
   background-size: cover;
+}
+
+
+
+
+
+
+
+.contact-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
 }

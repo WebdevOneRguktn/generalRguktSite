@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
-    <link rel="stylesheet" href="./maths_files/styles.css">
+    <link rel="stylesheet" href="../styles.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> 
 
-   <link rel="shortcut icon" href="./maths_files/favicon.ico">  
+   <link rel="shortcut icon" href="../images/favicon.ico">  
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,29 +87,31 @@
         
 <!-- ******HEADER****** --> 
 <?php 
-include "maths_files/includes/header.php";
+include "./header.php";
 ?>
-        
-        <!-- ******CONTENT****** --> 
-        <div class="container">
+  <!-- ******CONTENT****** --> 
+    <div class="container">
             <div class="row">
                 <div class="col-12 content-heading">
-                    <h2>Vision</h2>
+                    <h2>About the Department</h2>
                 </div>
                 <hr>
                 <div class="col-12 content-para">
-                    <p>To transform rural youth into global leaders and innovators in science, technology and Multidisciplinary areas and 
-                      contribute to the maximization of welfare of humanity.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis voluptatem, 
+                        odio deserunt quo voluptates, ut laborum adipisci perspiciatis!Lorem ipsum, dolor sit amet consectetur adipisicing 
+                        elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis 
+                        voluptatem, odio deserunt quo voluptates, ut laborum adipisci perspiciatisLorem ipsum, dolor sit amet
+                         consectetur adipisicing elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis voluptatem,
+                         odio deserunt quo voluptates, ut laborum adipisci perspiciatis</p>
 
                 </div>
-                <div class="col-12 content-heading">
-                    <h2>Mission</h2>
-                </div>
-                <hr>
                 <div class="col-12 content-para">
-                    <p>To provide quality technical education with the goal of inclusiveness in terms of access to the meritorious
-                       rural youth, who are perennially deprived of the opportunities; through an innovative blend of modern computer assisted,
-                       learner-centric instructional methodology along with rigorous traditional teaching in a world class ambience</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis voluptatem, 
+                        odio deserunt quo voluptates, ut laborum adipisci perspiciatis!Lorem ipsum, dolor sit amet consectetur adipisicing 
+                        elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis 
+                        voluptatem, odio deserunt quo voluptates, ut laborum adipisci perspiciatisLorem ipsum, dolor sit amet
+                         consectetur adipisicing elit. Expedita nostrum ipsum harum corporis velit est molestias, distinctio dicta temporibus voluptate facilis voluptatem,
+                         odio deserunt quo voluptates, ut laborum adipisci perspiciatis</p>
 
                 </div>
             </div>
@@ -117,9 +119,7 @@ include "maths_files/includes/header.php";
     </div><!--//wrapper-->
     
     <!-- ******FOOTER****** --> 
-    <?php 
-include "maths_files/includes/footer.php";
-?>
+    <?php include "./footer.php" ?>
 
 </body>
   </html>
