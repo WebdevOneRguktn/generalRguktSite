@@ -307,9 +307,7 @@ menu_one item:hover menu_two{
 .carousel__indicator.current-slide {
 	background: rgba(0, 0, 0, 0.9);
 }
-.is-hidden {
-	/* display: none; */
-}
+/* .is-hidden {display: none;} */
 /* -------MAIN ROW 2------ */
 #row2 {
 	display: grid;
@@ -317,11 +315,11 @@ menu_one item:hover menu_two{
 	grid-column-gap: 1em;
 	padding: 1em 1em 0em 1em;
 }
-#row2 div {
-	/* height: max-content; */
-	/* border:1px solid black; */
-	/* padding:1em; */
-}
+/* #row2 div {
+	height: max-content;
+	padding:1em;
+	border:1px solid black;
+} */
 #leftContainer {
 	padding: 1em 1em 0em 1em;
 	border-radius: 20px;
@@ -480,9 +478,7 @@ footer>div{
 	#head {
 		width: unset;
 	}
-	#others {
-		/* width: 30%; */
-	}
+	/* #others {width: 30%;} */
 	item,menu_two{
 		width:fit-content;
 		padding:10px;
