@@ -483,6 +483,13 @@ footer>div{
 	#others {
 		/* width: 30%; */
 	}
+	item,menu_two{
+		width:fit-content;
+		padding:10px;
+	}
+	menu_two{
+		left:120%;
+	}
 	#rightContainer{
 		line-height: unset;
 		font-size: 0.5em;

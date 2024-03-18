@@ -8,8 +8,8 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<title>Department of Computer Science & Engineering</title>
 		<!-- -------------ATTACHMENTS-------------- -->
-		<link rel="stylesheet" href="assets/css/minified.style.css" />
-		<!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+		<!-- <link rel="stylesheet" href="assets/css/minified.style.css" /> -->
+		<link rel="stylesheet" href="assets/css/style.css" />
 		<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 		<script src="assets/js/jquery-3.7.1.slim.min.js"></script>
 	</head>
