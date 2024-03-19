@@ -15,7 +15,31 @@
 	</head>
 	<body>
 		<?php include "includes/headerNav.php"?>
-		<?php include "pages/main.php"?>
+		<?php 
+			if(isset($_GET["page"])){
+				if($_GET["page"]=="team"){
+					include "pages/websiteTeam.php";
+				}
+			}else{
+				include "pages/main.php";
+			}
+			// $route = explode("/",$_SERVER['REQUEST_URI']);
+			// if($route[3]==''){
+			// 	include "pages/main.php";
+			// }else{
+			// 	include "pages/404.php";
+			// }
+		?>
+		<!-- <script>
+			var route = window.location.pathname;
+			route = route.trim().split("/");
+			console.log(route);
+			if (route[3]==''){
+				<?php //include "pages/main.php"?>
+			}else{
+				alert("page not found")
+			} -->
+		</script>
 		<?php include "includes/footer.php"; ?>
 	</body>
 </html>

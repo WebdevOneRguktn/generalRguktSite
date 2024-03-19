@@ -26,7 +26,7 @@
                     |--menu_two
  -->
     <ol id="navol">
-        <li>Home</li>
+        <li><a href="./">Home</a></li>
         <li>People ▾
             <menu_one>
                 <item>

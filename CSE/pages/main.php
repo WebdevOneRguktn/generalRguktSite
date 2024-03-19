@@ -101,7 +101,17 @@
             <hr style="margin: 0 0 1.4em 0;padding: 0;width: 97%;border:none;border-top: 1px solid rgba(50, 50, 50, 0.6);" >
             <div class="contents" id="content1">
                 <div id="aboutDept">
-                    Global excellence and local relevance in <resear></resear>ch, teaching, and technology development is the vision of the Department. The Department was started as the Computer Centre in 1973 with the acquisition of an IBM 370, perhaps the most powerful computer in India at that time. It offered M.Tech, M.S and PhD degree programmes. In 1983, the B.Tech degree programme was started.
+                    <span style="margin-right:40px;"></span>The Department of Computer Science and Engineering, RGUKT Nuzvid campus was established in the year 2010. Since inception, the Department has maintained top standards in the context of the academics and evolving discipline. The Department has a strong core curriculum complemented by electives in the important emerging areas. It is provided with very good experimental facilities for research and a strong technical staff.
+                    <br><br>
+                    <strong>Vision:</strong>
+                    <br>
+                    <span style="margin-right:40px;"></span>To be among the nation's premier research and teaching institutions in Computer Science and Engineering.
+                    <br><br>
+                    <strong>Mission:</strong>
+                    <br>
+                    <span style="margin-right:40px;"></span>To create, share, and apply knowledge in the field of Computer Science, including in interdisciplinary areas that extend the scope of Computer Science and benefit humanity; to educate students to be successful, ethical and effective problem-solvers and life-long learners who will contribute positively to the economic well-being of the nation and who are prepared to tackle complex challenges facing the world.                    
+                    <br><br>
+                    <!-- Global excellence and local relevance in research, teaching, and technology development is the vision of the Department. The Department was started as the Computer Centre in 1973 with the acquisition of an IBM 370, perhaps the most powerful computer in India at that time. It offered M.Tech, M.S and PhD degree programmes. In 1983, the B.Tech degree programme was started.
                     <br>
                     <br>
                     Today the Department has a vibrant student body numbering about 700. Over 60% are postgraduate, mostly supported by scholarships. The Department also offers several attractive industry-sponsored Fellowships for outstanding PhD scholars and liberally supports participation in top-ranking international conferences.
@@ -113,7 +123,7 @@
                     The report on the department activities presented by the Head of the Department at the Department Degree Distribution Program, 2020 is available here.
                     <br>
                     <br>
-                    The video of the Department Degree Distribution Program is now available here.
+                    The video of the Department Degree Distribution Program is now available here. -->
                 </div>
                 <div id="UpcomingSeminars">
                     <div id="UShead">

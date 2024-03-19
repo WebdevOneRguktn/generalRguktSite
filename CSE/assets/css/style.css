@@ -8,7 +8,7 @@
 }
 
 html {
-	height:100vh;
+	/* height:100vh; */
 	width:100vw;
 	background: var(--htmlBack);
 	display: flex;
@@ -19,7 +19,7 @@ html {
 }
 body {
 	margin: 0 0 0 0;
-	height:768px;
+	/* height:768px; */
 	width:1200px;
 	padding: 0;
 	/* border:1px solid white; */
@@ -131,6 +131,12 @@ nav ol li {
 	flex-shrink: 0;
 	color: rgb(255, 255, 255, 0.8);
 	cursor: pointer;
+}
+nav ol li a{
+	height:100%;
+	width:100%;
+	display: flex;justify-content: center;align-items: center;
+	color: rgb(255, 255, 255, 0.8);
 }
 item:hover, menu_two a:hover{
 	color:rgba(255, 255, 255, 0.897);
