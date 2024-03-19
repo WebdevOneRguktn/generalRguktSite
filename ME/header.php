@@ -31,7 +31,7 @@
 		  
 		<ul class="navbar-nav">
 			<li class="nav-item dropdown">
-			<a class="nav-link text-dark" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="nav-link text-dark" href="./index.php" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				HOME
 			  </a></li>
 		<li class="nav-item dropdown">
@@ -39,7 +39,9 @@
 			PEOPLE
 		  </a>
 		  <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-			<a class="dropdown-item" href="#">Faculty</a>
+			<a class="dropdown-item" href="./faculty_page.php">Faculty</a>
+			<a class="dropdown-item" href="./staff.php">Staff</a>
+
   			<a class="dropdown-item" href="#">Distinguished Alumini Awardees</a>
   			<a class="dropdown-item" href="#">Visitors</a>
 			  <a class="dropdown-item" href="#">Student Representatives</a>

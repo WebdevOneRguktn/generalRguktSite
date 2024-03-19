@@ -52,7 +52,7 @@
 		  
 		<ul class="navbar-nav">
 			<li class="nav-item dropdown">
-			<a class="nav-link text-dark" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="nav-link text-dark" href="./index.php" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				HOME
 			  </a></li>
 		<li class="nav-item dropdown">
