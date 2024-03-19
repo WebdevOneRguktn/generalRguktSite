@@ -1,0 +1,52 @@
+$(document).ready(function() {
+    //~ $('#excelDataTable').DataTable({
+        //~ "ajax": "fetch_excel.php",
+        //~ "columns": [
+            //~ { "data": "A" },
+            //~ { "data": "B" },
+            //~ // Add more columns as needed
+        //~ ]
+    //~ });
+    
+    
+     $.ajax({
+      url:"fetch_excel.php",
+      method:"POST",
+      data:new FormData(this),
+      contentType:false,
+      cache:false,
+      processData:false,
+      success:function(data)
+      {
+        $('#excel_area').html(data);
+        $('table').css('width','100%');
+      }
+    });
+    
+   
+   /* ----------------------------------------------------------- */
+   /*  Back to top
+   /* ----------------------------------------------------------- */
+
+   $(window).on('scroll', function () {
+      if ($(window).scrollTop() > $(window).height()) {
+         $(".BackTo").fadeIn('slow');
+      } else {
+         $(".BackTo").fadeOut('slow');
+      }
+
+   });
+   $("body, html").on("click", ".BackTo", function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+         scrollTop: 0
+      }, 800);
+   });
+   
+
+    
+    
+  });
+    
+    
+

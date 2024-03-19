@@ -1,0 +1,11 @@
+  /* Bottom Footer */
+  .footer-rgukt{
+    background-color: #B1040E;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    
+  }
